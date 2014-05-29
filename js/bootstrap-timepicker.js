@@ -42,13 +42,13 @@
     _init: function() {
       var self = this;
 
-      if (this.$element.parent().hasClass('input-append') || this.$element.parent().hasClass('input-prepend')) {
-		if (this.$element.parent('.input-append, .input-prepend').find('.add-on').length) {
-			this.$element.parent('.input-append, .input-prepend').find('.add-on').on({
+      if (this.$element.parent().hasClass('input-group')) {
+		if (this.$element.parent('.input-group').find('.input-group-addon').length) {
+			this.$element.parent('.input-group').find('.input-group-addon').on({
 			  'click.timepicker': $.proxy(this.showWidget, this)
 			});		
 		} else {
-			this.$element.closest(this.containerClass).find('.add-on').on({
+			this.$element.closest(this.containerClass).find('.input-group-addon').on({
 			  'click.timepicker': $.proxy(this.showWidget, this)
 			});		
 		}
