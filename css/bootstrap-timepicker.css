@@ -106,10 +106,10 @@
   padding: 4px;
 }
 @media (min-width: 767px) {
-  .bootstrap-timepicker-widget.modal {
+/*  .bootstrap-timepicker-widget.modal {
     width: 200px;
     margin-left: -100px;
-  }
+  }*/
 }
 @media (max-width: 767px) {
   .bootstrap-timepicker {
