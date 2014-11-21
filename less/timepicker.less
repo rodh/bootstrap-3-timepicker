@@ -71,8 +71,8 @@
     }
 
     table {
-        width: 100%;
-        margin: 0;
+        width: 200px;
+        margin: 0 auto;
 
         td { 
             text-align: center;
@@ -110,24 +110,29 @@
                 }
             }
             input {
-                width: 25px;
+                width: 50px;
                 margin: 0;
                 text-align: center;
+                border-radius: 4px;
             }
         }
     }
 }
 
 .bootstrap-timepicker-widget .modal-content {
-    padding: 4px;
+    padding: 0;
 }
 
-@media (min-width: 767px) {
+.bootstrap-timepicker-widget .modal-body {
+    padding: 5px 10px;
+}
+
+/*@media (min-width: 767px) {
     .bootstrap-timepicker-widget.modal {
         width: 200px; 
         margin-left: -100px; 
     }
-}
+}*/
 
 @media (max-width: 767px) {
     .bootstrap-timepicker {
