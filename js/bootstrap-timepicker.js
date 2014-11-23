@@ -329,7 +329,7 @@
           '<div class="modal-dialog modal-sm">' +
           '<div class="modal-content">' +
           '<div class="modal-header">'+
-            '<a href="#" class="close" data-dismiss="modal">×</a>'+
+            '<a href="#" class="close" data-dismiss="modal">&times;</a>'+
             '<h4 class="modal-title">Pick a Time</h4>'+
           '</div>'+
           '<div class="modal-body">'+
