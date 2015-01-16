@@ -1,14 +1,7 @@
-//TODO: move arrow styles and button click code into configurable items, with defaults matching the existing code
-
-/*!
-* Timepicker Component for Twitter Bootstrap
-*
-* Copyright 2013 Joris de Wit
-*
-* Contributors https://github.com/jdewit/bootstrap-timepicker/graphs/contributors
-*
-* For the full copyright and license information, please view the LICENSE
-* file that was distributed with this source code.
+/*! bootstrap-timepicker v0.3.0
+* http://jdewit.github.com/bootstrap-timepicker 
+* Copyright (c) 2014 Joris de Wit 
+* MIT License 
 */
 (function($, window, document, undefined) {
   'use strict';
